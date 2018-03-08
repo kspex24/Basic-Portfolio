@@ -1,5 +1,5 @@
 
-
+/* Style the body of page */
 body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,7 +7,7 @@ body {
     background-color: #ffffff;  
     background-image: url("../images/light_grey_@2X.jpg");
 }
-
+/* Style the header section of page with title and navbar */
 header {
     border-bottom: solid 2px;
     margin-top: -17px;
@@ -17,8 +17,9 @@ header {
     border-color: #cccccc;
 }
 
+/* Style the header */
 h1 {
-    margin-left:350px;
+    margin-left:359px;
     margin-top: -17px;
     padding: 24px 30px 10px 30px;
     text-align: center;
@@ -30,7 +31,7 @@ h1 {
     float: left;
 }
 
-
+/* Style the navbar buttons */
 ul {
     list-style-type: none;
     padding-top: 20px;
@@ -41,7 +42,6 @@ ul {
 
 
 li a {
-    display: block;
     text-align: center;
     vertical-align: text-bottom;
     padding: 10px 12px;;
@@ -55,6 +55,7 @@ li a:hover {
     color: #4aaaa5;
 }
 
+/* Style the main content area of page */
 section {
     padding-top: 20px;
     background-color: #ffffff;  
@@ -65,6 +66,7 @@ section {
     border-color: #dddddd; 
   }
 
+/* Style heading 2 */
 
 h2 {
     margin-left: 25px;
@@ -77,6 +79,7 @@ h2 {
     border-bottom-color: #dddddd;
 }
 
+/* Style the image */
 #bio-image {
     width: 135px;
     height: 210px;
@@ -84,6 +87,7 @@ h2 {
     float: left;
 }
 
+/* Style the content of main area*/
 p {
     padding: 5px 10px 5px 10px;
     text-size: 14px;
@@ -92,53 +96,102 @@ p {
     margin-right: 10px;
 }
 
-.image-container {
-    margin-left: 25px;
-}
-
-.textbox {
-    background-color: #4aaaa5;
-    color: white;
-    width: 200px;
-    text-align: center;
-}
+/* Style and position the images and text on portfoliio page */
 
 .image {
     width: 200px;
     height: 150px;
 }
 
-#rbow {
-   
+.container1 {
+    padding: 35px;
+    width:200px;
+    text-align: center;
+    float: left;
+    color: white;
 }
 
-#orgapp {
-   
-}
-#blog {
-   
-}
-#game {
-   
-}
-#mobile {
-    
+.rbow {
+    position: relative;
+    padding: 5px;
+    width: 190px;
+    bottom: 36px;
+    z-index: 10;
+    background-color: #4aaaa5;
+
 }
 
-
-
-
-
-
-#imgorgapp {
+.container2 {
+    padding: 35px;
+    width:200px;
+    float: left;
+    text-align: center;
+    color: white;
     float: left;
 }
 
-#imgorgapp {
+.orgapp {
+    position: relative;
+    padding: 5px;
+    width: 190px;
+    bottom: 36px;
+    z-index: 10;
+    background-color: #4aaaa5;
+}
+
+.container3 {
+    padding: 35px;
+    width:200px;
+    text-align: center;
     float: left;
+    color: white;
+}
+
+.blog {
+    position: relative;
+    padding: 5px;
+    width: 190px;
+    bottom: 36px;
+    z-index: 10;
+    background-color: #4aaaa5;
+
+}
+
+.container4 {
+    padding: 35px;
+    width:200px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.game {
+    position: relative;
+    padding: 5px;
+    width: 190px;
+    bottom: 36px;
+    z-index: 10;
+    background-color: #4aaaa5;
+}
+
+.container5 {
+    padding: 35px;
+    width:200px;
+    text-align: center;
+    color: white;
+}
+
+.mobile {
+    position: relative;
+    padding: 5px;
+    width: 190px;
+    bottom: 36px;
+    z-index: 10;
+    background-color: #4aaaa5;
 }
 
 
+/* Style the email form of contact page */
 form {
     margin-left: 25px;
 }
@@ -170,6 +223,7 @@ input[type=submit] {
     margin-bottom: 10px;
 }
 
+/* Style the footer of page */
 footer {
     position: absolute;
     bottom: 0;
