@@ -21,7 +21,7 @@ header {
 h1 {
     margin-left:359px;
     margin-top: -17px;
-    padding: 24px 30px 10px 30px;
+    padding: 28px 30px 8px 30px;
     text-align: center;
     font-size: 26px;
     line-height: 58px;
@@ -50,7 +50,7 @@ li a {
     float: right;
 }
 
-/* Change the link color to teal #4aaaa5 on hover */
+/* Change the nav links color to teal #4aaaa5 on hover */
 li a:hover {
     color: #4aaaa5;
 }
@@ -79,7 +79,7 @@ h2 {
     border-bottom-color: #dddddd;
 }
 
-/* Style the image */
+/* Style the image on about page*/
 #bio-image {
     width: 135px;
     height: 210px;
@@ -87,7 +87,7 @@ h2 {
     float: left;
 }
 
-/* Style the content of main area*/
+/* Style the paragraph content of main area*/
 p {
     padding: 5px 10px 5px 10px;
     text-size: 14px;
@@ -99,6 +99,7 @@ p {
 /* Style and position the images and text on portfoliio page */
 
 .image {
+    display: block;
     width: 200px;
     height: 150px;
 }
@@ -106,88 +107,30 @@ p {
 .container1 {
     padding: 35px;
     width:200px;
-    text-align: center;
     float: left;
-    color: white;
-}
-
-.rbow {
-    position: relative;
-    padding: 5px;
-    width: 190px;
-    bottom: 36px;
-    z-index: 10;
-    background-color: #4aaaa5;
-
 }
 
 .container2 {
     padding: 35px;
     width:200px;
     float: left;
-    text-align: center;
-    color: white;
-    float: left;
-}
-
-.orgapp {
-    position: relative;
-    padding: 5px;
-    width: 190px;
-    bottom: 36px;
-    z-index: 10;
-    background-color: #4aaaa5;
 }
 
 .container3 {
     padding: 35px;
     width:200px;
-    text-align: center;
-    float: left;
-    color: white;
 }
 
-.blog {
-    position: relative;
-    padding: 5px;
-    width: 190px;
-    bottom: 36px;
-    z-index: 10;
-    background-color: #4aaaa5;
 
-}
-
-.container4 {
-    padding: 35px;
-    width:200px;
-    text-align: center;
-    float: left;
-    color: white;
-}
-
-.game {
-    position: relative;
-    padding: 5px;
-    width: 190px;
-    bottom: 36px;
-    z-index: 10;
-    background-color: #4aaaa5;
-}
-
-.container5 {
-    padding: 35px;
-    width:200px;
+.textbox {
     text-align: center;
     color: white;
-}
-
-.mobile {
-    position: relative;
+    background-color: #4aaaa5;
     padding: 5px;
     width: 190px;
+    position: relative;
     bottom: 36px;
     z-index: 10;
-    background-color: #4aaaa5;
 }
 
 
