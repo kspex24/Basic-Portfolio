@@ -119,6 +119,7 @@ p {
 .container3 {
     padding: 35px;
     width:200px;
+    float: left;
 }
 
 
