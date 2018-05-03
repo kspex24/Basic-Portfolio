@@ -60,6 +60,7 @@ section {
     padding-top: 20px;
     background-color: #ffffff;  
     width: 960px;
+    height: auto;
     margin: auto;
     margin-top: 30px;
     border: solid 1px;
@@ -90,7 +91,7 @@ h2 {
 /* Style the paragraph content of main area*/
 p {
     padding: 5px 10px 5px 10px;
-    text-size: 14px;
+    font-size: 14px;
     line-height: 1.6;
     margin-left: 10px;
     margin-right: 10px;
