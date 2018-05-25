@@ -117,7 +117,7 @@ p {
     float: left;
 }
 
-.container3 {
+.container3,  .container4 {
     padding: 35px;
     width:200px;
     float: left;
